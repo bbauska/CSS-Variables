@@ -28,7 +28,9 @@ To declare a CSS Custom Property (Variable), you start with two dashes (–). Va
 ```
 --base-font-size and --Base-Font-Size are two different variables.
 ```
+
 To define a variable locally, you use the selector of the element in which you want to use the variable.
+
 ```
 #first-container {
     --background: #ccc;
@@ -39,7 +41,8 @@ Once you have defined the variable, it is necessary to invoke it.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 ## The var() function
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-The var() function is used to insert the value of the defined CSS Variable. The function replaces itself with the value of the variable. Let’s take a look at an example: 
+The var() function is used to insert the value of the defined CSS Variable. The function replaces 
+itself with the value of the variable. Let’s take a look at an example: 
 
 ### The HTML Code
 Copy and paste this code into your code editor. 
@@ -73,6 +76,7 @@ Save the file as index.html
 </body>
 </html>
 ```
+
 ### The CSS Code
 Create a file called style.css (in the same directory of index.html).
 
@@ -150,14 +154,17 @@ div {
 button {   border-radius: 5px;
 }
 ```
+
 There are some things to notice here:
 
 Creating a color palette is a straightforward process.
-It is possible to use a variable inside the definition of another variable, like the color in the definition of the border variables.
-Variables are inherited, the color property of the .container-* element affects its direct children. In this case, the <p> element.
-To override a variable, you declare it inside its container, making it more specific.
+It is possible to use a variable inside the definition of another variable, like the color in the definition of 
+the border variables.
+Variables are inherited, the color property of the .container-* element affects its direct children. In this case, 
+the &lt;p&gt; element. To override a variable, you declare it inside its container, making it more specific.
 
 #### Edit the CSS code:
+
 ```
 button {
 	border-radius: 5px;
@@ -171,6 +178,7 @@ button {
 Variables can also be inherited and overridden in the CSS media queries.
 
 #### Add this code to the variables:
+
 ```
 :root {
 	/* Color palette */
