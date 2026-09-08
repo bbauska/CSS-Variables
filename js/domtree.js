@@ -1,4 +1,4 @@
-/* bbauska/Brians-Template/js/domtree.js for Brians-Template.bauska.org */
+/* domtree.js of bbauska/CSS-Variables for CSS-Template.bauska.org */
 const width = 500;
 const height = 600;
 const quantity = 150;
