@@ -1,6 +1,6 @@
 {
-  "name": "Template Name",
-  "short_name": "Template", 
+  "name": "CSS Variables",
+  "short_name": "CSS Vars", 
   "start_url": "index.html",
   "display": "standalone",
   "icons": [
